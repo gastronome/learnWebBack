@@ -12,6 +12,11 @@ const basicRouter = [{
       component:()=> import('@/view/dashboard/index'),
       name: 'dashboard',
       meta: { title: 'dashboard', icon: 'dashboard', noCache: true }
+  },{
+    path:'home',
+    component:()=>import('@/view/home/home'),
+    name:'home',
+    meta:{title:'home',icon:''}
   }
   ]
 },{
